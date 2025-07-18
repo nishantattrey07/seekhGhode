@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourcompany.audiorecordercli</string>
+    
+    <key>CFBundleName</key>
+    <string>AudioRecorderCLI</string>
+    
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    
+    <key>CFBundleExecutable</key>
+    <string>AudioRecorderCLI</string>
+    
+    <!-- CRITICAL: This key triggers "System Audio Recording Only" permission -->
+    <key>NSAudioCaptureUsageDescription</key>
+    <string>This app needs to record system audio for capturing sound from your applications.</string>
+    
+    <!-- DO NOT INCLUDE these keys to avoid screen recording permission -->
+    <!--
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>NOT INCLUDED - We don't want screen recording permission</string>
+    
+    <key>NSMicrophoneUsageDescription</key>
+    <string>NOT INCLUDED - We don't want microphone permission</string>
+    -->
+    
+    <key>LSMinimumSystemVersion</key>
+    <string>14.4</string>
+    
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.developer-tools</string>
+</dict>
+</plist>
